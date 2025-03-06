@@ -1,9 +1,5 @@
 import express from "express"
-import { PrismaClient } from '@prisma/client'
 
-const db = new PrismaClient()
-const app = express();
+const userRouter = express.Router();
 
-app.post(()=>{
-  
-})
+userRouter.post('/signup',
