@@ -14,6 +14,7 @@
   "dependencies": {
     "@harshkadam/zod-taskflo": "^1.0.6",
     "@prisma/client": "^6.4.1",
+    "@types/bcrypt": "^5.0.2",
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.0",
     "@types/mongodb": "^4.0.6",
